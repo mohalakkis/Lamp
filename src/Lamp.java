@@ -1,6 +1,10 @@
 public class Lamp {
     private boolean on;
 
+    public Lamp(boolean initialState) {
+        this.on = initialState;
+    }
+
     public void setOn(boolean on) {
         this.on = on;
     }
